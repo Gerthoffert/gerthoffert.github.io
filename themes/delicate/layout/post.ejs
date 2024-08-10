@@ -47,16 +47,16 @@
 
     <section class="post-cc">
         <div class="post-cc-author">
-            <span class="bold">Author：</span><%- mail_to(theme.email, config.author) %>
+            <span class="bold">Author: </span><%- mail_to(theme.email, config.author) %>
         </div>
         <div class="post-cc-link">
-            <span class="bold">Link</span><a href="<%- url_for(page.path) %>"><%- decodeURIComponent(page.permalink) %></a>
+            <span class="bold">Link: </span><a href="<%- url_for(page.path) %>"><%- decodeURIComponent(page.permalink) %></a>
         </div>
         <div class="post-cc-source">
-            <span class="bold">Website：</span><a href="<%- url_for('/') %>"><%- config.title %></a>
+            <span class="bold">Website: </span><a href="<%- url_for('/') %>"><%- config.title %></a>
         </div>
         <div class="ppost-cc-declare">
-            <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a> 
+            <span class="bold">License: </span><a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a> 
         </div>
     </section>
 
